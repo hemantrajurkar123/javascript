@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Virat Kohli",
+    "age": "30",
+    "city": "Delhi"
+  },
+  {
+    "name": "Rohit Sharma",
+    "age": "32",
+    "city": "Mumbai"
+  },
+  {
+    "name": "Surya Yadav",
+    "age": "27",
+    "city": "Kolkata"
+  }
+]
