@@ -1,24 +1,19 @@
 // source procodrr youtube if else video
-const name=prompt("Enter your name")
-const age=+prompt("Enter your age")
+const name = prompt("Enter your name");
+const age = +prompt("Enter your age");
 
-console.log(`Name: ${name}`)
-console.log(`Age: ${age}`)
+console.log(`Name: ${name}`);
+console.log(`Age: ${age}`);
 
-
-if(age >=18 && age <=24){
-  console.log("I am a Student")
+if (age >= 18 && age <= 24) {
+  console.log("I am a Student");
+} else if (age >= 25 && age <= 60) {
+  console.log("I am a working professional");
+} else if (age > 60) {
+  console.log("I am a retired person");
 }
 
-else if (age>=25 && age <=60){
-  console.log("I am a working professional")
-}
-
-else if (age>60){
-  console.log("I am a retired person")
-}
-
-console.log("Program Ended")
+console.log("Program Ended");
 
 // basically the values of name and age are taken from the prompt and stored in the variables nama and age
 // Now based on the value of these varibles, if else conditions will be evaluated
